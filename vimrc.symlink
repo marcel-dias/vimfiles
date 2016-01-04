@@ -1,17 +1,23 @@
 set nocompatible
 set background=dark
-colorscheme base16-ocean
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'VundleVim/Vundle.vim'
+
 Plugin 'tpope/vim-sensible'
 Plugin 'rstacruz/vim-opinion'
-Plugin 'wincent/command-t'
 Plugin 'vim-scripts/closetag.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
 Plugin 'honza/dockerfile.vim'
+Plugin 'bling/vim-airline'
+
+" Color schemes
+Plugin 'joshdick/onedark.vim'
+Plugin 'joshdick/airline-onedark.vim'
+Plugin 'chriskempson/base16-vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -19,12 +25,14 @@ filetype plugin indent on
 "
 " my custom settings
 "
-"
-" highlight 80c
-set colorcolumn=80
+set history=128
+syntax on
+colorscheme onedark
 
 " lead with ,
 let mapleader = ","
+
+let g:airline_theme='onedark'
 
 " toggle nerdtree with ,e
 :nmap ,e :NERDTreeToggle<CR>
@@ -34,4 +42,3 @@ function! StripWhitespace ()
   exec ':%s/ \+$//gc'
 endfunction
 map ,s :call StripWhitespace ()<CR>
-
