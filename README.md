@@ -2,25 +2,14 @@
 
 My `~/.vim` and `~/.vimrc`.
 
-![screenshot](https://raw.githubusercontent.com/caarlos0/vimfiles/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/marceldiass/vimfiles/master/screenshot.png)
 
 # Installation
 
 ```sh
-git clone --recursive https://github.com/caarlos0/vimfiles.git ~/.vimfiles
-ln -s ~/.vimfiles/vim.symlink ~/.vim
-ln -s ~/.vimfiles/vimrc.symlink ~/.vimrc
-vim +PluginInstall +qall
-```
-
-Command-t requires some special treatment:
-
-```sh
-cd ~/.vim/bundle/command-t/ruby/command-t
-ruby extconf.rb
-make
+bash -c "$(wget -O - https://raw.githubusercontent.com/marceldiass/vimfiles/master/install)"
 ```
 
 # Used in
 
-- [caarlos0/dotfiles](http://github.com/caarlos0/dotfiles)
+- [marceldiass/dotfiles](http://github.com/marceldiass/dotfiles)
