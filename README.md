@@ -7,7 +7,7 @@ My `~/.vim` and `~/.vimrc`.
 # Installation
 
 ```sh
-bash -c "$(wget -O - https://raw.githubusercontent.com/marceldiass/vimfiles/master/install)"
+bash -c "$(wget -O - https://raw.githubusercontent.com/marceldiass/vimfiles/master/install.sh)"
 ```
 
 # Used in
