@@ -1,10 +1,12 @@
 # vimfiles
 
-![screenshot](https://raw.githubusercontent.com/marceldiass/vimfiles/master/screenshot.png)
-
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> My `~/.vim` and `~/.vimrc` configurations.
+> vimfiles is a `~/.vim` and `~/.vimrc` configurations.
+
+This repository is intended to keep my `~/.vim` and `~/.vimrc` files versioned. It configures a few [plugins](#plugins_list) and the result looks like the screenshot below - using iterm.
+
+![screenshot](https://raw.githubusercontent.com/marceldiass/vimfiles/master/screenshot.png)
 
 ## Table of Contents
 
