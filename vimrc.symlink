@@ -15,7 +15,7 @@ Plugin 'honza/dockerfile.vim'
 Plugin 'vim-airline/vim-airline'
 
 " Color schemes
-Plugin 'joshdick/onedark.vim'
+Plugin 'marceldiass/onedark.vim'
 
 call vundle#end()
 filetype plugin indent on
