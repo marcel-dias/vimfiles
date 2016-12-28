@@ -12,7 +12,7 @@ Plugin 'vim-scripts/closetag.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
 Plugin 'honza/dockerfile.vim'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
 
 " Color schemes
 Plugin 'joshdick/onedark.vim'
