@@ -10,7 +10,6 @@ Plugin 'tpope/vim-sensible'
 Plugin 'rstacruz/vim-opinion'
 Plugin 'vim-scripts/closetag.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'fatih/vim-go'
 Plugin 'honza/dockerfile.vim'
 Plugin 'vim-airline/vim-airline'
 
