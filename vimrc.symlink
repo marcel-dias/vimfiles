@@ -16,8 +16,6 @@ Plugin 'vim-airline/vim-airline'
 
 " Color schemes
 Plugin 'joshdick/onedark.vim'
-Plugin 'joshdick/airline-onedark.vim'
-Plugin 'chriskempson/base16-vim'
 
 call vundle#end()
 filetype plugin indent on
