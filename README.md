@@ -8,14 +8,14 @@
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Install](#install)
 - [Usage](#usage)
 - [Contribute](#contribute)
 - [Plugins list](#plugins_list)
 - [Used In](#used_in)
 - [License](#license)
 
-## Installation
+## Install
 
 ```sh
 bash -c "$(wget -O - https://raw.githubusercontent.com/marceldiass/vimfiles/master/install.sh)"
