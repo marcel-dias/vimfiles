@@ -4,7 +4,7 @@
 
 > vimfiles is a `~/.vim` and `~/.vimrc` configurations.
 
-This repository is intended to keep my `~/.vim` and `~/.vimrc` files versioned. It configures a few [plugins](#plugins_list) and the result looks like the screenshot below - using iterm.
+This repository is intended to keep my `~/.vim` and `~/.vimrc` files versioned. It configures a few [plugins](#plugins-list) and the result looks like the screenshot below - using iterm.
 
 ![screenshot](https://raw.githubusercontent.com/marceldiass/vimfiles/master/screenshot.png)
 
