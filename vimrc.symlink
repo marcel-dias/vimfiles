@@ -14,7 +14,7 @@ Plugin 'honza/dockerfile.vim'
 Plugin 'vim-airline/vim-airline'
 
 " Color schemes
-Plugin 'marceldiass/onedark.vim'
+Plugin 'dracula/vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -24,7 +24,8 @@ filetype plugin indent on
 "
 set history=128
 syntax on
-colorscheme onedark
+color dracula
+let g:colors_name = "dracula"
 
 " lead with ,
 let mapleader = ","
