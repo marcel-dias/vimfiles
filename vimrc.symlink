@@ -30,8 +30,6 @@ let g:colors_name = "dracula"
 " lead with ,
 let mapleader = ","
 
-let g:airline_theme='onedark'
-
 " toggle nerdtree with ,e
 :nmap ,e :NERDTreeToggle<CR>
 
