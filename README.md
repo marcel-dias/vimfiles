@@ -20,7 +20,7 @@ This repository is intended to keep my `~/.vim` and `~/.vimrc` files versioned. 
 ## Install
 
 ```sh
-bash -c "$(wget -O - https://raw.githubusercontent.com/marceldiass/vimfiles/master/install.sh)"
+bash -c "$(wget -O - https://raw.githubusercontent.com/marcel-dias/vimfiles/master/install.sh)"
 ```
 
 The install script download this git repository, create two symbolic links `vim.symlink > ~/.vim` and `vimrc.symlink > ~/.vimrc` and install vim plugins using [Vundle](https://github.com/VundleVim/Vundle.vim)
@@ -29,6 +29,7 @@ The install script download this git repository, create two symbolic links `vim.
 ## Usage
 
 You can add plugins in the `vimrc.symlink` file and run he command below to install them.
+
 ```sh
 vim +PluginInstall +qall
 ```
@@ -45,12 +46,11 @@ PRs accepted.
 - 'scrooloose/nerdtree'
 - 'honza/dockerfile.vim'
 - 'vim-airline/vim-airline'
-- 'marceldiass/onedark.vim'
 
 ## Used in
 
-- [marceldiass/dotfiles](http://github.com/marceldiass/dotfiles)
+- [marcel-dias/dotfiles](http://github.com/marcel-dias/dotfiles)
 
 ## License
 
-[MIT © Marcel Dias](https://github.com/marceldiass/vimfiles/blob/master/LICENSE)
+[MIT © Marcel Dias](https://github.com/marcel-dias/vimfiles/blob/master/LICENSE)
